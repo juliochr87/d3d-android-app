@@ -1,5 +1,6 @@
 package com.corporacionjoules.www.myapplication;
 
+import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity
         showTutorial();
     }
 
+    @Override
+    public void unregisterReceiver(BroadcastReceiver receiver) {
+        super.unregisterReceiver(receiver);
+    }
 
     @Override
     public void onBackPressed() {

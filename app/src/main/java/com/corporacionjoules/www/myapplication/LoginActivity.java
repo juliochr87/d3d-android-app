@@ -117,10 +117,15 @@ public class LoginActivity extends AppCompatActivity {
         return bundle;
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        finish();  //Kill the activity from which you will go to next activity
+    }
 
     public void cargarMenuPrincipal(){
         Intent i = new Intent(LoginActivity.this, MainActivity.class);
-        finish();  //Kill the activity from which you will go to next activity
+
         startActivity(i);
     }
     //Muestra el dialogo para que el usuario se registre
