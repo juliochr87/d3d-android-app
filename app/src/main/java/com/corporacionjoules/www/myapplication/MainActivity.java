@@ -111,7 +111,14 @@ public class MainActivity extends AppCompatActivity
         }else if (id == R.id.nav_perfil){
             startActivity(new Intent(MainActivity.this, EditPerfilActivity.class));
             return true;
+        }else if (id == R.id.nav_exit){
+            finish();
+            startActivity(new Intent(MainActivity.this,LoginActivity.class));
+            //TODO:Llamar a funcion que hace el logout del usuario
+            return true;
         }
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

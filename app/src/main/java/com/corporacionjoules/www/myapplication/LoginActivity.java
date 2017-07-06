@@ -125,7 +125,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void cargarMenuPrincipal(){
         Intent i = new Intent(LoginActivity.this, MainActivity.class);
-
+        finish();
         startActivity(i);
     }
     //Muestra el dialogo para que el usuario se registre
