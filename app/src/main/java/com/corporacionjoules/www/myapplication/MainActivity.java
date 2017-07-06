@@ -1,5 +1,6 @@
 package com.corporacionjoules.www.myapplication;
 
+import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -93,9 +94,11 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-       // if (id == R.id.nav_share) {
-
-       // }
+        if(id == R.id.nav_como_funciona){
+            Intent i = new Intent(MainActivity.this, HowWorkActivity.class);
+            startActivity(i);
+            return true;
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
