@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="idiomas">
+        <item>Spanish</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="app_name">D3D</string>
+
+    <!-- strings del menu lateral-->
+    <string name="nav_inicio">Sign in</string>
+    <string name="nav_perfil">Profile</string>
+    <string name="nav_buscar">Search professionals</string>
+    <string name="nav_publicar">Publish projects</string>
+    <string name="nav_publicados">Published projects</string>
+    <string name="nav_mis_proyectos">My projects</string>
+    <string name="nav_evaluacion">Evaluation</string>
+    <string name="nav_mensajes">Messages</string>
+    <string name="nav_como_funciona">How does it work</string>
+    <string name="nav_exit">Log out</string>
+    <string name="web_d3d">www.doingit3d.com/</string>
+    <!-- Fin menu lateral-->
+
+    <!-- strings de la pantalla de inicio-->
+    <string name="registrarse">Sign up</string>
+    <string name="entrar">Login</string>
+    <string name="facebook">Facebook</string>
+    <string name="regresar">Back</string>
+    <!-- Fin strings de la pantalla de inicio-->
+
+
+    <!-- strings de la pantalla del pefil-->
+    <string name="perfil_activo">Active profile</string>
+    <string name="disenio_impresion_scanner">Design 3D / Print 3D / Scanner 3D</string>
+    <string name="como_contratista">As a contractor</string>
+    <string name="como_trabajador">As a worker</string>
+    <string name="experiencia_perfil">Experience</string>
+    <string name="como_vas">HOW ARE YOU DOING?</string>
+    <string name="historial">RECORD</string>
+    <string name="portafolios">PORTAFOLIO OF WORKS</string>
+    <string name="editar_perfil">EDIT PROFILE</string>
+    <string name="info_personal">Personal information</string>
+    <!-- Fin strings de la pantalla del perfil-->
+
+
+    <!-- strings de la pantalla del registro-->
+    <string name="registro">Register</string>
+    <string name="tipo_perfil">Services associated to your profile</string>
+    <string name="diseñador_3d">I am a 3D designer</string>
+    <string name="impresor_3d">I have a 3D printer</string>
+    <string name="scanner_3d">I have a 3D scanner</string>
+    <string name="nombre">Name</string>
+    <string name="email">E-Mail</string>
+    <string name="contraseña">Password</string>
+    <string name="rep_contraseña">Repeat password</string>
+    <string name="salvar_perfil">Save profile</string>
+    <string name="email_verificar">Not a valid email</string>
+    <string name="ubicacion_registro">Get location (will allow other users to locate you)</string>
+    <string name="siguiente">Next</string>
+    <string name="centro_trabajo">Work</string>
+    <string name="puesto_trabajo">Position</string>
+    <string name="idioma">Languaje</string>
+    <string name="fecha_nacimiento">Birthday</string>
+    <!-- Fin strings de la pantalla del registro-->
+
+    <!-- strings de la pantalla de publicar proyecto-->
+    <string name="titulo_proyecto">Title of the project</string>
+    <string name="tipologia_proyecto">Typology of the project</string>
+    <string name="descripcion_proyecto">Project description</string>
+    <string name="formato_archivo">File format (For 3D design delivery)</string>
+    <string name="fecha_hora">Date and Time of completion (The longer this date, the more the offer will receive)</string>
+    <string name="tipo_moneda">Currency in which you want to receive quotes</string>
+    <string name="desplazamiento">Does it require displacement?</string>
+    <string name="privacidad">Privacy of the project</string>
+
+    <string-array name="tipologia_de_proyecto">
+        <item>Scanner 3D</item>
+        <item>Design 3D</item>
+        <item>Printer 3D</item>
+        <item>Merchandising</item>
+    </string-array>
+
+    <string name="seleccionar_hint">Select</string>
+
+    <string-array name="formato_de_archivo">
+        <item>PSD</item>
+        <item>CDE material</item>
+    </string-array>
+
+    <string-array name="material">
+        <item>ABS</item>
+        <item>PLA</item>
+        <item>Metal</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string name="euro">Euro</string>
+    <string name="dolar">Dollar</string>
+
+    <string name="no_desplazamiento">No. I can send the piece I want to send.</string>
+    <string name="si_desplazamiento">Yes. It is necessary to move</string>
+    <string name="ciudad_poblacion_pais">City / Town / Country</string>
+    <string name="privacidad_publico">Public. The project is visible in the DoingIt 3D Home</string>
+    <string name="privacidad_privado">Private. Only users with the designer profile can see this project</string>
+    <string name="terminos_condiciones">I have read and accept the terms of publication</string>
+    <string name="publicar_proyecto">PUBLISH PROJECT</string>
+    <string name="material_string">Product Material</string>
+    <string name="marcar_radio">Please complete the form</string>
+    <!-- Fin strings de la pantalla de publicar proyecto-->
+
+    <!-- String valoracion-->
+    <string name="reputacion">Reputation as a contractor</string>
+    <string name="proyectos_presentados">Proyects presented</string>
+    <string name="proyectos_finalizados">Proyects finalized</string>
+    <string name="proyectos_nulos">Proyects nulls</string>
+    <string name="pendientes_de_adjudicacion">Pending adjudication</string>
+    <string name="ofertas_presentadas">Bids submitted</string>
+    <string name="ofertas_pendientes_de_adjudicar">Pending tenders to award</string>
+    <string name="trabajos_adjudicados">Awarded jobs</string>
+    <string name="trabajos_no_adjudicados">Non-awarded works</string>
+    <!-- Fin strings valoracion-->
+
+    <!-- String editar perfil-->
+    <string name="nombre_publico">Public profile name</string>
+    <string name="email_contacto">Contact email</string>
+    <string name="servicios_asociados">Services associated to your profile</string>
+    <string name="activar_design">Activate profile as 3D Designer</string>
+    <string name="activar_scanner">Activate profile as a professional 3D scanning</string>
+    <string name="activar_impresion">Enable 3D Printing Profile</string>
+    <string name="guardar_cambios">Save changes</string>
+    <string name="cambios_guardados">Changes saved</string>
+    <string name="nueva_pass">New password</string>
+    <!-- Fin strings editar perfil-->
+
+    <!-- String varios-->
+    <string name="error">ERROR</string>
+    <string name="aceptar">Accept</string>
+    <string name="correo_electronico">E-mail</string>
+    <string name="cancelar">Cancel</string>
+    <string name="iniciar_sesion">Login</string>
+    <string name="si">Yes</string>
+    <string name="permanecer">No, stay here</string>
+    <string name="salir_app">Do you want to exit the application?</string>
+    <string name="campo_requerido">Required field</string>
+    <string name="diferente_pass">Passwords do not match</string>
+    <string name="enhorabuena">Congratulations!</string>
+    <string name="registro_exito">Successful registration</string>
+    <string name="publicacion_exito">Project published successfully</string>
+    <string name="elegir_modo">Choose Mode</string>
+    <string name="anadir_imagen">How do you want to add an image?</string>
+
+    <string-array name="camara_galeria">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+
+    <string name="user_pass_incorrectos">Incorrect user and / or password</string>
+    <string name="elegir_img">Please choose an image</string>
+    <string name="email_ya_existe">Email already exists</string>
+    <string name="logout_first">You must log out first</string>
+    <string name="aceptar_terminos">You must accept the terms and conditions</string>
+    <string name="titulo">Title</string>
+    <string name="autor">Author</string>
+    <string name="conectado">Connected</string>
+    <string name="desconectado">Disconnected</string>
+    <string name="sms_recibidos">Received</string>
+    <string name="sms_enviados">Sent</string>
+    <string name="sesion_iniciada">Session started</string>
+    <string name="foto">Photo</string>
+    <!-- Fin strings varios-->
+</resources>

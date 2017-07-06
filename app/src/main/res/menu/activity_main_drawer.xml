@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/user_black"
+            android:title="@string/nav_perfil" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black"
+            android:title="@string/nav_map" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/search_black"
+            android:title="@string/nav_buscar" />
+        <item
+            android:id="@+id/nav_publicar"
+            android:icon="@drawable/publish_black"
+            android:title="@string/nav_publicar" />
+
+        <item
+            android:id="@+id/nav_publicados"
+            android:icon="@drawable/list_black"
+            android:title="@string/nav_publicados" />
+
+        <item
+            android:id="@+id/nav_mis_proyectos"
+            android:icon="@drawable/dashboard_black"
+            android:title="@string/nav_mis_proyectos" />
+
+        <item
+            android:id="@+id/nav_evaluacion"
+            android:icon="@drawable/star_black"
+            android:title="@string/nav_evaluacion" />
+
+        <item
+            android:id="@+id/nav_mensajes"
+            android:icon="@drawable/mail_black"
+            android:title="@string/nav_mensajes" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_como_funciona"
+            android:icon="@drawable/question_black"
+            android:title="@string/nav_como_funciona" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/log_out_black"
+            android:title="@string/nav_exit" />
+    </group>
+
+</menu>

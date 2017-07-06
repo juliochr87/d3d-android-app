@@ -1,0 +1,201 @@
+<resources>
+    <string-array name="idiomas">
+        <item>Español</item>
+        <item>Ingles</item>
+    </string-array>
+
+    <string name="app_name">D3D</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ciudad">Introduce tu ciudad</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- strings del menu lateral-->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_buscar">Buscar profesionales</string>
+    <string name="nav_publicar">Publicar proyectos</string>
+    <string name="nav_publicados">Proyectos publicados</string>
+    <string name="nav_mis_proyectos">Mis proyectos</string>
+    <string name="nav_evaluacion">Evaluación</string>
+    <string name="nav_mensajes">Mensajes</string>
+    <string name="nav_como_funciona">Cómo funciona</string>
+    <string name="nav_exit">Cerrar sesión</string>
+    <string name="web_d3d">www.doingit3d.com/</string>
+    <!-- Fin menu lateral-->
+
+    <!-- strings de la pantalla de inicio-->
+    <string name="registrarse">Registrarse</string>
+    <string name="entrar">Entrar</string>
+    <string name="facebook">Facebook</string>
+    <string name="regresar">Regresar</string>
+    <!-- Fin strings de la pantalla de inicio-->
+
+    <!-- strings de la pantalla del perfil-->
+    <string name="perfil_activo">Perfil Activo</string>
+    <string name="disenio_impresion_scanner">Diseño 3D / Impresión 3D / Scanner 3D</string>
+    <string name="como_contratista">Como contratista</string>
+    <string name="como_trabajador">Como trabajador</string>
+    <string name="experiencia_perfil">Experiencia</string>
+    <string name="como_vas">¿CÓMO VAS?</string>
+    <string name="historial">HISTORIAL</string>
+    <string name="portafolios">Portafolio de trabajos</string>
+    <string name="editar_perfil">EDITAR PERFIL</string>
+    <string name="info_personal">Información personal</string>
+    <!-- Fin strings de la pantalla del perfil-->
+
+    <!-- strings de la pantalla del registro-->
+    <string name="registro">Registro</string>
+    <string name="tipo_perfil">Servicios asociados a tu perfil</string>
+    <string name="diseñador_3d">Diseñador 3D</string>
+    <string name="impresor_3d">Impresora 3D</string>
+    <string name="scanner_3d">Scanner 3D</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">E-Mail</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="rep_contraseña">Repetir contraseña</string>
+    <string name="salvar_perfil">Guardar Perfil</string>
+    <string name="email_verificar">No es un email válido</string>
+    <string name="ubicacion_registro">Obtener ubicación (permitirá a otros usuarios localizale)</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="centro_trabajo">Centro de trabajo</string>
+    <string name="puesto_trabajo">Puesto de trabajo</string>
+    <string name="idioma">Idioma</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="cuenta_propia">Cuenta propia</string>
+    <string name="cuenta_ajena">Cuenta ajena</string>
+    <!-- Fin strings de la pantalla del registro-->
+
+
+    <!-- strings de la pantalla de publicar proyecto primero-->
+    <string name="tipo_de_proyecto">Selecciona el tipo de proyecto 3D</string>
+    <string name="tipo_impresion_3d">Encuentra un diseñador 3D</string>
+    <string name="tipo_scanner_3d">Encuentra un scanner 3D</string>
+    <string name="tipo_diseno_3d">Encuentra un diseñador 3D</string>
+    <string name="tipo_video_3d">Video 3D </string>
+    <string name="tipo_realidad_aumentada">Realidad Aumentada</string>
+    <string name="tipo_merchandising">Merchandising 3D</string>
+
+
+    <!-- strings de la pantalla de publicar proyecto-->
+    <string name="titulo_proyecto">Titulo del proyecto</string>
+    <string name="descripcion_proyecto">Descripción del proyecto 3D</string>
+    <string name="formato_archivo">Formato de archivo(Para la entrega del diseño en 3D)</string>
+    <string name="fecha_hora">Fecha de finalización</string>
+    <string name="tipo_moneda">Moneda en la que desea recibir los presupuestos</string>
+    <string name="desplazamiento">¿Requiere desplazamiento?</string>
+    <string name="privacidad">Privacidad del proyecto</string>
+    <string name="pais">Seleccione el país</string>
+    <string name="Subir_archivo">Seleccione el archivo que desa subir</string>
+
+
+    <string-array name="tipologia_de_proyecto">
+        <item>Scanner 3D</item>
+        <item>Diseño 3D</item>
+        <item>Impresora 3D</item>
+        <item>Merchandising</item>
+    </string-array>
+
+    <string name="seleccionar_hint">Seleccionar</string>
+
+    <string-array name="formato_de_archivo">
+        <item>PSD</item>
+        <item>Material CDE</item>
+    </string-array>
+
+    <string-array name="material">
+        <item>ABS</item>
+        <item>PLA</item>
+        <item>Metal</item>
+        <item>Madera</item>
+    </string-array>
+
+    <string name="euro">Euro</string>
+    <string name="dolar">Dólar</string>
+    <string name="no_desplazamiento">No. Puedo enviar la pieza que quiero enviar</string>
+    <string name="si_desplazamiento">Si. Es necesario desplazarse</string>
+    <string name="ciudad_poblacion_pais">Ciudad/Población/País</string>
+    <string name="privacidad_publico">Público. El proyecto es visible en el Home de DoingIt 3D</string>
+    <string name="privacidad_privado">Privado. Solo los usuarios con el perfil de diseñador pueden ver este proyecto</string>
+    <string name="terminos_condiciones">He leído y acepto los términos de publicación</string>
+    <string name="publicar_proyecto">PUBLICAR PROYECTO</string>
+    <string name="material_string">Material del producto</string>
+    <string name="marcar_radio">Por favor, complete el formulario</string>
+    <!-- Fin strings de la pantalla de publicar proyecto-->
+
+    <!-- strings de la pantalla ver proyectos publicados-->
+    <string name="proyectos">Proyectos 3D publicados</string>
+
+    <!-- Fin strings de la pantalla ver proyectos publicados-->
+
+    <!-- String valoracion-->
+    <string name="reputacion">Reputación como contratista</string>
+    <string name="proyectos_presentados">Proyectos</string>
+    <string name="proyectos_finalizados">Proyectos finalizados</string>
+    <string name="proyectos_nulos">Proyectos nulos</string>
+    <string name="pendientes_de_adjudicacion">Pendientes de adjudicacion</string>
+    <string name="ofertas_presentadas">Ofertas presentadas</string>
+    <string name="ofertas_pendientes_de_adjudicar">Ofertas pendientes de adjudicar</string>
+    <string name="trabajos_adjudicados">Trabajos adjudicados</string>
+    <string name="trabajos_no_adjudicados">Trabajos no adjudicados</string>
+    <!-- Fin strings valoracion-->
+
+    <!-- String editar perfil-->
+    <string name="nombre_publico">Nombre de perfil público</string>
+    <string name="email_contacto">Email de contacto</string>
+    <string name="servicios_asociados">Servicios asociados a tu perfil</string>
+    <string name="activar_design">Activar perfil como Diseñador 3D</string>
+    <string name="activar_scanner">Activar perfil como profesional Scanneado 3D</string>
+    <string name="activar_impresion">Activar perfil de Impresión 3D</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="cambios_guardados">Cambios Guardados</string>
+    <string name="nueva_pass">Nueva contraseña</string>
+    <!-- Fin strings editar perfil-->
+
+
+    <!-- String varios-->
+    <string name="error">Error</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="si">Sí</string>
+    <string name="permanecer">No, permanecer aquí</string>
+    <string name="salir_app">¿Desea salir de la aplicación?</string>
+    <string name="campo_requerido">Campo requerido</string>
+    <string name="diferente_pass">Las contraseñas no coinciden</string>
+    <string name="enhorabuena">¡Enhorabuena!</string>
+    <string name="registro_exito">Registro con éxito</string>
+    <string name="publicacion_exito">Proyecto publicado con éxito</string>
+
+    <string name="elegir_modo">Elegir Modo</string>
+    <string name="anadir_imagen">¿Cómo quiere añadir una imagen?</string>
+
+    <string-array name="camara_galeria">
+        <item>Galería</item>
+        <item>Cámara</item>
+    </string-array>
+
+    <string name="user_pass_incorrectos">Usuario y/o contraseña incorrectos</string>
+    <string name="elegir_img">Por favor, elija una imagen</string>
+    <string name="email_ya_existe">El email ya existe</string>
+    <string name="logout_first">Debes cerrar sesión primero</string>
+    <string name="aceptar_terminos">Debe aceptar los términos y condiciones</string>
+    <string name="titulo">Titulo</string>
+    <string name="autor">Autor</string>
+    <string name="conectado">Sesión iniciada</string>
+    <string name="desconectado">Desconectado</string>
+    <string name="sms_recibidos">Recibidos</string>
+    <string name="sms_enviados">Enviados</string>
+    <string name="sesion_iniciada">Sesión Iniciada</string>
+    <string name="foto">Foto</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- Fin strings varios-->
+
+    <string name="facebook_app_id">1857317244591701</string>
+    <string name="fb_login_protocol_scheme">fb1857317244591701</string>
+</resources>
