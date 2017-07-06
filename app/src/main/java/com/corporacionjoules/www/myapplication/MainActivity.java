@@ -57,6 +57,12 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        finish();  //Kill the activity from which you will go to next activity
+    }
+
+    @Override
     public void unregisterReceiver(BroadcastReceiver receiver) {
         super.unregisterReceiver(receiver);
     }
@@ -100,8 +106,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if(id == R.id.nav_como_funciona){
-            Intent i = new Intent(MainActivity.this, HowWorkActivity.class);
-            startActivity(i);
+            startActivity(new Intent(MainActivity.this, HowWorkActivity.class));
+            return true;
+        }else if (id == R.id.nav_perfil){
+            startActivity(new Intent(MainActivity.this, EditPerfilActivity.class));
             return true;
         }
 
@@ -212,13 +220,13 @@ public class MainActivity extends AppCompatActivity
                                     .transparentTarget(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .textColor(android.R.color.black),
 
                             TapTarget.forBounds(r2, "Mapas", "Localiza a otros usuarios usando el mapa")
                                     .dimColor(android.R.color.holo_red_dark)
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black),
@@ -228,20 +236,20 @@ public class MainActivity extends AppCompatActivity
                                     .transparentTarget(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .textColor(android.R.color.black),
 
                             TapTarget.forBounds(r4,"Publicar Proyecto","Publica tus proyectos profesionales")
                                     .dimColor(android.R.color.holo_red_dark)
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black),
 
                             TapTarget.forBounds(r5, "Proyectos Publicados", "Mira los proyectos de los demás usuarios")
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black),
@@ -249,7 +257,7 @@ public class MainActivity extends AppCompatActivity
                             TapTarget.forBounds(r6,"Mis Proyectos", "Mira tus proyectos")
                                     .dimColor(android.R.color.holo_red_dark)
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black),
@@ -257,7 +265,7 @@ public class MainActivity extends AppCompatActivity
                             TapTarget.forBounds(r7, "Evaluación", "Aquí encontraras las estadisticas de tus proyectos")
                                     .dimColor(android.R.color.holo_red_dark)
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black),
@@ -265,7 +273,7 @@ public class MainActivity extends AppCompatActivity
                             TapTarget.forBounds(r8, "Mensajes", "Envia y recibe mensajes de otros usuarios")
                                     .dimColor(android.R.color.holo_red_dark)
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black),
@@ -273,7 +281,7 @@ public class MainActivity extends AppCompatActivity
                             TapTarget.forBounds(r9, "Chat", "Habla con otros usuarios en tiempo real")
                                     .dimColor(android.R.color.holo_red_dark)
                                     .transparentTarget(true)
-                                    .cancelable(false)
+                                    .cancelable(true)
                                     .targetRadius(30)
                                     .targetCircleColor(R.color.azul_facebook)
                                     .textColor(android.R.color.black)
@@ -303,6 +311,7 @@ public class MainActivity extends AppCompatActivity
                         public void onSequenceCanceled(TapTarget lastTarget) {
 
                         }
+
                     }).start();
 
     }
